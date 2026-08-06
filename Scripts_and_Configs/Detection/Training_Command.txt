@@ -1,0 +1,30 @@
+YOLO Training Command (Used for All Detector Models)
+
+yolo detect train \
+data=/data/pool/bhe-mk3/kitti_final_clean/data.yaml \
+model=<MODEL_PATH> \
+epochs=300 \
+patience=8 \
+batch=8 \
+imgsz=640 \
+device=1 \
+project=/data/pool/bhe-mk3/runs \
+name=<MODEL_NAME> \
+augment=True
+
+Parameter Description
+---------------------
+data      : Path to the KITTI dataset configuration file.
+model     : Pretrained YOLO model used for training (changed for each detector).
+epochs    : Number of training epochs (300).
+patience  : Early stopping after 8 epochs without improvement.
+batch     : Batch size (8).
+imgsz     : Input image size (640 × 640).
+device    : GPU used for training.
+project   : Directory where training outputs are saved.
+name       : Name of the training run (changed for each detector).
+augment   : Enables data augmentation.
+
+Note:
+The same training configuration was used for all YOLO detector models.
+Only the 'model' and 'name' parameters were changed for each detector.
