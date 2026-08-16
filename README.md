@@ -101,10 +101,16 @@ Trained model weights (YOLO detector checkpoints, the OSNet Re-ID model) are int
 ## Results
 
 Best combination found: YOLO12x + DeepOCSORT / StrongSORT++, ~88 MOTA, ~80 HOTA.
+<img width="1002" height="269" alt="image" src="https://github.com/user-attachments/assets/8a0cdf9d-2e02-4f96-9c92-01c58dbfdae2" />
 
-TODO (Preeti): add the full comparison table across all detector x tracker combinations here (or as a linked image/CSV) - run show_final_table.py / make_table.py against Trackers_Results.tar.gz and paste the output. A single headline number is far less convincing to a reviewer than the full grid this project actually produced.
+<img width="600" height="389" alt="image" src="https://github.com/user-attachments/assets/b0e37b8d-883c-4621-a809-7173edbfc30b" />
 
-Re-ID model: KITTI-trained OSNet, Rank-1 accuracy 85.8%.
+<img width="1067" height="563" alt="image" src="https://github.com/user-attachments/assets/8c3f2ca4-d6c1-450d-a07e-d81d4b688d54" />
+<img width="1072" height="609" alt="image" src="https://github.com/user-attachments/assets/6282d0ad-52ba-47c4-bb1a-4e8a4516145e" />
+<img width="1058" height="553" alt="image" src="https://github.com/user-attachments/assets/f4f815ff-b81b-4e41-a2b7-c3854286917a" />
+<img width="1074" height="556" alt="image" src="https://github.com/user-attachments/assets/0b4e5741-89a9-4a76-a8d8-a28497b3c071" />
+<img width="692" height="186" alt="image" src="https://github.com/user-attachments/assets/fe17e0b6-6a41-4738-b025-2864cc684f90" />
+
 
 ## Dataset
 
@@ -119,10 +125,7 @@ The benchmark was evaluated on KITTI only, with no cross-dataset validation, so 
 ## Future Improvements
 
 extending the tracker/detector grid, or deploying the best combination in a live pipeline.
-<img width="1242" height="374" alt="frame550" src="https://github.com/user-attachments/assets/2a3d829a-c0c3-4b34-832b-3e47fcefebe9" />
-<img width="1242" height="375" alt="000006" src="https://github.com/user-attachments/assets/b41fe5c5-eb7d-4006-991c-8d1b2a0c543b" />
-<img width="1242" height="375" alt="000388" src="https://github.com/user-attachments/assets/96e5222f-235d-4d75-891d-729e0f6c7c1c" />
-<img width="1242" height="375" alt="original_388" src="https://github.com/user-attachments/assets/2950378d-103b-40cc-8f94-6e50bb038074" />
+
 
 ## License
 
