@@ -114,11 +114,15 @@ Dataset access, licensing, and the exact train/val split used are not documented
 
 ## Limitations
 
-TODO (Preeti): this section is intentionally left for you to fill in honestly - e.g. conditions where tracking degraded, classes that were harder to track, compute cost of running the full 10-detector x tracker grid, or how well KITTI results might generalize elsewhere.
+The benchmark was evaluated on KITTI only, with no cross-dataset validation, so results may not generalize to other driving environments, camera setups, or geographies. This is a benchmark study, not a deployed system — it hasn't been integrated into a live MONOCAB navigation pipeline.
 
 ## Future Improvements
 
-TODO (Preeti): e.g. connecting this to your thesis work, extending the tracker/detector grid, or deploying the best combination in a live pipeline.
+extending the tracker/detector grid, or deploying the best combination in a live pipeline.
+<img width="1242" height="374" alt="frame550" src="https://github.com/user-attachments/assets/2a3d829a-c0c3-4b34-832b-3e47fcefebe9" />
+<img width="1242" height="375" alt="000006" src="https://github.com/user-attachments/assets/b41fe5c5-eb7d-4006-991c-8d1b2a0c543b" />
+<img width="1242" height="375" alt="000388" src="https://github.com/user-attachments/assets/96e5222f-235d-4d75-891d-729e0f6c7c1c" />
+<img width="1242" height="375" alt="original_388" src="https://github.com/user-attachments/assets/2950378d-103b-40cc-8f94-6e50bb038074" />
 
 ## License
 
