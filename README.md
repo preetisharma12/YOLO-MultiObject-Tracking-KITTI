@@ -116,6 +116,9 @@ Best combination found: YOLO12x + DeepOCSORT / StrongSORT++, ~88 MOTA, ~80 HOTA.
 
 Experiments were performed on the KITTI Object Detection Dataset and the KITTI Tracking Dataset.
 
+<img width="906" height="382" alt="image" src="https://github.com/user-attachments/assets/0547562f-5ef0-4349-949e-db617b4c8499" />
+
+
 Dataset access, licensing, and the exact train/val split used are not documented here yet - see References/ for model/tracker links, and add dataset access details if you want this fully reproducible by others.
 
 ## Limitations
