@@ -103,12 +103,7 @@ Trained model weights (YOLO detector checkpoints, the OSNet Re-ID model) are int
 Best combination found: YOLO12x + DeepOCSORT / StrongSORT++, ~88 MOTA, ~80 HOTA.
 <img width="1002" height="269" alt="image" src="https://github.com/user-attachments/assets/8a0cdf9d-2e02-4f96-9c92-01c58dbfdae2" />
 
-<img width="600" height="389" alt="image" src="https://github.com/user-attachments/assets/b0e37b8d-883c-4621-a809-7173edbfc30b" />
 
-<img width="1067" height="563" alt="image" src="https://github.com/user-attachments/assets/8c3f2ca4-d6c1-450d-a07e-d81d4b688d54" />
-<img width="1072" height="609" alt="image" src="https://github.com/user-attachments/assets/6282d0ad-52ba-47c4-bb1a-4e8a4516145e" />
-<img width="1058" height="553" alt="image" src="https://github.com/user-attachments/assets/f4f815ff-b81b-4e41-a2b7-c3854286917a" />
-<img width="1074" height="556" alt="image" src="https://github.com/user-attachments/assets/0b4e5741-89a9-4a76-a8d8-a28497b3c071" />
 <img width="692" height="186" alt="image" src="https://github.com/user-attachments/assets/fe17e0b6-6a41-4738-b025-2864cc684f90" />
 
 
