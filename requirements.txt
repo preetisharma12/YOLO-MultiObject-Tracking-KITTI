@@ -1,0 +1,27 @@
+# Core deep learning
+torch>=2.0
+torchvision>=0.15
+
+# Object detection
+ultralytics
+
+# Multi-object tracking (StrongSORT++, DeepOCSORT)
+boxmot
+
+# Re-identification (OSNet)
+torchreid
+onnxruntime-gpu  # swap for `onnxruntime` if running on CPU only
+
+# Evaluation
+# TrackEval is not distributed on PyPI - install from source:
+#   pip install git+https://github.com/JonathonLuiten/TrackEval.git
+# (confirm this matches how you actually installed it before relying on this file)
+
+# Utilities
+opencv-python
+numpy
+pandas
+matplotlib
+PyYAML
+tqdm
+scipy
